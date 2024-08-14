@@ -9,4 +9,4 @@ for script in ~/setup-desktop/desktop/*.sh; do . $script; done
 for script in ~/setup-desktop/apps/*.sh; do . $script; done
 
 ## Install tools terminal
-for script in ~/setup-desktop/terminal/zsh.sh; do .$script; done
+for script in ~/setup-desktop/terminal/*.sh; do .$script; done
