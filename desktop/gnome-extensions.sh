@@ -9,7 +9,6 @@ gnome-extensions disable tiling-assistant@ubuntu.com
 gnome-extensions disable ubuntu-dock@ubuntu.com
 gnome-extensions disable ding@rastersoft.com
 
-
 # Install new extensions for gnome
 
 # https://extensions.gnome.org/extension/4548/tactile/
