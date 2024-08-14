@@ -1,8 +1,6 @@
 sudo apt install -y gnome-shell-extension-manager pipx
 pipx install gnome-extensions-cli --system-site-packages
 
-exec $SHELL
-
 # Turn off default Ubuntu extensions
 gnome-extensions disable tiling-assistant@ubuntu.com
 # gnome-extensions disable ubuntu-appindicators@ubuntu.com # This one is for showing tray icons in the top bar, like discord, rustdesk, etc.
