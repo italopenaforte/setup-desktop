@@ -1,4 +1,3 @@
-. ~/setup-desktop/terminal/zsh.sh
 
 ## Install requireds
 for script in ~/setup-desktop/required/*.sh; do . $script; done
@@ -8,3 +7,6 @@ for script in ~/setup-desktop/desktop/*.sh; do . $script; done
 
 ## Install Apps
 for script in ~/setup-desktop/apps/*.sh; do . $script; done
+
+## Install tools terminal
+for script in ~/setup-desktop/terminal/zsh.sh; do .$script; done
